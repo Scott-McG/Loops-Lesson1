@@ -27,15 +27,15 @@ public class timestablechallenge {
 		System.out.println("What is the smallest number you want?");
 		low=in.nextInt();
 
-		if (ans2>ans1); {
-		low=ans1;
-		hi=ans2;
-		System.out.println("Whoops low was higher than high, I switched them for you");
-		}else {
-			hi=ans1;
-			low=ans2;
+		//if (ans2>ans1); {
+		//low=ans1;
+		//hi=ans2;
+		//System.out.println("Whoops low was higher than high, I switched them for you");
+		//}else {
+			//hi=ans1;
+			//low=ans2;
 		
-	}
+	
 		//loop and ask questions
 		while (score<10) {
 			int num1=rnd.nextInt(hi-low+1)+low;
